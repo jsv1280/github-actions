@@ -9,6 +9,6 @@ jobs:
       - name: Install NodeJS
         uses: actions/setup-node@v4
       - name: Run Hello World Script
-        run: node ../../index.js
+        run: node index.js
       
       
