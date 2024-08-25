@@ -1,0 +1,14 @@
+name: hola-mundo
+on: [push]
+jobs:
+  hola-mundo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Install NodeJS
+        uses: actions/setup-node@v4
+      - name: Run Hello World Script
+        run: node index.js
+      
+      
